@@ -44,7 +44,7 @@
 		</dependency>
 		<dependency>
 			<groupId>csu.lch</groupId>
-			<artifactId>violetAPI-client-sdk</artifactId>
+			<artifactId>violetAPI-dubbo-interface</artifactId>
 			<version>0.0.1</version>
 		</dependency>
 	</dependencies>

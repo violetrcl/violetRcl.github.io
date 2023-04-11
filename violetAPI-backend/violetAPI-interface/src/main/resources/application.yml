@@ -4,5 +4,5 @@ server:
     context-path: /api
 violetapi:
   client:
-    access-key: fangyi
+    access-key: fangyi01
     secret-key: asdfghjkl

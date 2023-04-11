@@ -18,11 +18,11 @@ public class SignUtils {
      * @param secretKey 密钥
      * @return 签名
      */
-    public static String getSign(String body, String secretKey){
+    public static String generateSign(String body, String secretKey){
         Digester md5 = new Digester(DigestAlgorithm.MD5);
         String str = body + secretKey;
 // 5393554e94bf0eb6436f240a4fd71282
-        String digestHex = md5.digestHex(str);
-        return digestHex;
+        return md5.digestHex(str);
     }
 }
+
