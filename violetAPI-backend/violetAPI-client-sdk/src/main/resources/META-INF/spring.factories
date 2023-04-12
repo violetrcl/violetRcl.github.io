@@ -1,2 +1,0 @@
-#Declare VioletAPIConfig as an automatic configuration class for spring boot starter
-org.springframework.boot.autoconfigure.EnableAutoConfiguration = csu.lch.violetapiclientsdk.VioletAPIConfig
